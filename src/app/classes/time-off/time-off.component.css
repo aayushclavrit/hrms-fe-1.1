@@ -1,0 +1,29 @@
+#c1 {
+  background-color: aliceblue;
+  width: 250px;
+  height: 150px;
+  position: relative;
+  left: 50px;
+}
+
+#c2 {
+  background-color: aliceblue;
+  width: 250px;
+  height: 150px;
+  position: relative;
+  left: 125px;
+}
+
+#c3 {
+  background-color: aliceblue;
+  width: 250px;
+  height: 150px;
+  position: relative;
+  left: 250px;
+}
+
+.info {
+  position: absolute;
+  left: 230px;
+  top: 365px;
+}

@@ -1,0 +1,561 @@
+<app-tab></app-tab>
+<app-sidebar></app-sidebar>
+<div class="information">
+  <h3>Personal</h3>
+  <hr class="hr hr-blurry" />
+  <h5><i class="fa-solid fa-user"></i> Basic Information</h5>
+  <hr class="hr hr-blurry" />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td class="block" colspan="1">
+                <form class="well form-horizontal">
+                  <fieldset>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">Full Name</label>
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Full Name"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">Birth Date</label>
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="state"
+                            name="state"
+                            placeholder="Birth Date"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="date"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">Gender</label>
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span
+                            class="input-group-addon"
+                            style="max-width: 100%"
+                          >
+                          </span>
+                          <select class="selectpicker form-control">
+                            <option value="-1">Select</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td class="block" colspan="1">
+                <form class="well form-horizontal">
+                  <fieldset>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">Blood Group</label>
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="bloodGroup"
+                            name="bloodGroup"
+                            placeholder="Blood Group"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">Nationality</label>
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="nationality"
+                            name="nationality"
+                            placeholder="Nationality"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        >Marital Status</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span
+                            class="input-group-addon"
+                            style="max-width: 100%"
+                          >
+                          </span>
+                          <select class="selectpicker form-control">
+                            <option value="-1">Select</option>
+                            <option>Married</option>
+                            <option>Unmarried</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr hr-blurry" />
+  <h5><i class="fa-solid fa-house"></i> Address</h5>
+  <hr class="hr hr-blurry" />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h6><i class="fa-solid fa-house"></i> Address For Communication</h6>
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td class="block" colspan="1">
+                <form class="well form-horizontal">
+                  <fieldset>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        >Address Line 1</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="addressLine1"
+                            name="addressLine1"
+                            placeholder="Address Line 1"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        >Address Line 2</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="addressLine2"
+                            name="addressLine2"
+                            placeholder="Address Line 2"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">City</label>
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="city"
+                            name="city"
+                            placeholder="City"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        >Postal Code/ZIP</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="postcode"
+                            name="postcode"
+                            placeholder="Postal Code/ZIP"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <h6><i class="fa-solid fa-house"></i> Permanent Address</h6>
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td class="block" colspan="1">
+                <form class="well form-horizontal">
+                  <fieldset>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        >Address Line 1</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="addressLine1"
+                            name="addressLine1"
+                            placeholder="Address Line 1"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        >Address Line 2</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="addressLine2"
+                            name="addressLine2"
+                            placeholder="Address Line 2"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">City</label>
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="city"
+                            name="city"
+                            placeholder="City"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        >Postal Code/ZIP</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="postcode"
+                            name="postcode"
+                            placeholder="Postal Code/ZIP"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr hr-blurry" />
+  <h5><i class="fa-solid fa-phone"></i> Contact</h5>
+  <hr class="hr hr-blurry" />
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td class="block" colspan="1">
+                <form class="well form-horizontal">
+                  <fieldset>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">
+                        <i class="fa-solid fa-envelope"></i> Company's
+                        Email</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="cemail"
+                            name="cemail"
+                            placeholder="Company's Email"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        ><i class="fa-solid fa-phone"></i> Mobile Number</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="mobileNumber"
+                            name="mobileNumber"
+                            placeholder="mobile Number"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="container">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td class="block" colspan="1">
+                <form class="well form-horizontal">
+                  <fieldset>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">
+                        <i class="fa-solid fa-envelope"></i> Personal
+                        Email</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="pemail"
+                            name="pemail"
+                            placeholder="Personal Email"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        ><i class="fa-solid fa-phone"></i> Alternate
+                        Number</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="mobileNumber"
+                            name="mobileNumber"
+                            placeholder="mobile Number"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hr hr-blurry" />
+  <h5><i class="fa-solid fa-message"></i> Social Links</h5>
+  <hr class="hr hr-blurry" />
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td class="block" colspan="1">
+                <form class="well form-horizontal">
+                  <fieldset>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">
+                        <i class="fa-brands fa-linkedin"></i> Linkedin</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="linkedin"
+                            name="linkedin"
+                            placeholder="Linkedin"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        ><i class="fa-brands fa-github"></i> GitHub</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="gitHub"
+                            name="gitHub"
+                            placeholder="GitHub"
+                            class="form-control"
+                            required="true"
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="container">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td class="block" colspan="1">
+                <form class="well form-horizontal">
+                  <fieldset>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">
+                        <i class="fa-brands fa-facebook"></i> Facebook</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="facebook"
+                            name="facebook"
+                            placeholder="Facebook"
+                            class="form-control"
+                            required=""
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"
+                        ><i class="fa-brands fa-instagram"></i> Instagram</label
+                      >
+                      <div class="col-md-8 inputGroupContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"></span
+                          ><input
+                            id="instagram"
+                            name="instagram"
+                            placeholder="Instagram"
+                            class="form-control"
+                            required=""
+                            value=""
+                            type="text"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

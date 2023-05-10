@@ -1,0 +1,65 @@
+/* .user-photo {
+  position: relative;
+  top: 45px;
+  right: 48px;
+} */
+
+#p1 {
+  background-color: hsla(0, 100%, 70%, 0.3);
+  height: 165px;
+}
+
+.photo {
+  width: 90px;
+  position: relative;
+  left: 53px;
+  top: -15px;
+}
+
+h4 {
+  position: relative;
+  left: 150px;
+  top: 24px;
+}
+#c1 {
+  background-color: aliceblue;
+  width: 410px;
+  height: 203px;
+  border: 1px solid black;
+  position: relative;
+  top: -22px;
+  right: 380px;
+}
+#c2 {
+  background-color: aliceblue;
+  width: 410px;
+  height: 203px;
+  border: 1px solid black;
+  position: relative;
+  right: 380px;
+}
+.rounded {
+  border-radius: 0.55rem !important;
+}
+/* #p2 {
+  background-color: gainsboro;
+} */
+
+#c3 {
+  background-color: aliceblue;
+  width: 730px;
+  height: 430px;
+  border: 1px solid black;
+  position: relative;
+  top: -429px;
+  left: 240px;
+}
+
+#c4 {
+  background-color: aliceblue;
+  width: 1370px;
+  height: 540px;
+  position: relative;
+  top: -329px;
+  border: 1px solid black;
+}

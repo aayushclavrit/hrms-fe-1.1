@@ -1,0 +1,19 @@
+.navbar-brand {
+  border-radius: 30px;
+  font-size: 30px;
+  text-align: left;
+  color: coral;
+}
+.container-fluid {
+  background-color: aliceblue;
+}
+
+.nav-link {
+  font-family: sans-serif;
+}
+.d-flex {
+  margin-left: 450px;
+}
+.navbar {
+  padding: 0px 0px;
+}

@@ -1,0 +1,7 @@
+.container-fluid {
+  padding-top: 18px;
+  background-color: hsla(0, 100%, 70%, 0.3);
+}
+.tabs {
+  padding-top: 35px;
+}

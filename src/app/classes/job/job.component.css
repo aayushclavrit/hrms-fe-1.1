@@ -1,0 +1,14 @@
+.info {
+  position: absolute;
+  left: 230px;
+  top: 365px;
+}
+
+.table {
+  width: 1020px;
+  background-color: aliceblue;
+}
+
+hr {
+  color: #000;
+}

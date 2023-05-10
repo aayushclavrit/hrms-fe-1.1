@@ -1,0 +1,28 @@
+.information {
+  position: absolute;
+  left: 192px;
+  top: 365px;
+  width: 82%;
+}
+h3 {
+  position: relative;
+  left: 42px;
+}
+h5 {
+  position: relative;
+  left: 42px;
+}
+
+.block {
+  background-color: aliceblue;
+}
+
+.container {
+  position: relative;
+  left: 14px;
+}
+
+.well {
+  position: relative;
+  left: 15px;
+}
